@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "myserver",
   "description": "Simple module for server testing",
   "version": "0.0.1",
   "repository": {
@@ -23,8 +23,11 @@
     "string": "^3.1.0"
   },
   "scripts": {
-    "test": "mocha --reporter spec",
+    "test": "mocha --reporter spec"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "ajanderson1209",
+  "license": "GPL-3.0",
+  "directories": {
+    "test": "test"
+  }
 }

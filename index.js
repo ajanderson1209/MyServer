@@ -1,4 +1,3 @@
-var command = require('commander');
 var MathLib = require('./test/mathLib.js').mathLib;
 var fs = require('fs');
 
