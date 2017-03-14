@@ -1,27 +1,16 @@
 {
-  "name": "myserver",
-  "description": "Simple module for server testing",
+  "name": "aaron-myserver",
   "version": "0.0.1",
+  "description": "Simple module for server testing",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajanderson1209/myserver.git"
+    "url": "https://github.com/ajanderson1209/myserver.git"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
     "mocha": "^3.2.0"
   },
-  "bugs": {
-    "url": "https://github.com/ajanderson1209/myserver/issues"
-  },
-  "homepage": "https://github.com/ajanderson1209/myserver#readme",
-  "main": "./index.js",
-  "dependencies": {
-    "chai": "^3.5.0",
-    "commander": "^2.6.0",
-    "request": "^2.37.0",
-    "uuid": "^2.0.1",
-    "string": "^3.1.0"
-  },
+  "homepage": "https://github.com/ajanderson1209/myserver",
   "scripts": {
     "test": "mocha --reporter spec"
   },
@@ -29,5 +18,9 @@
   "license": "GPL-3.0",
   "directories": {
     "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "request": "~2.27.0"
   }
 }
